@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <style>
+        div {
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+<form action="#">
+    <fieldset>
+        <legend>Customer Details</legend>
+        <div>
+            <label>First Name</label>
+            <input type="text" placeholder="George">
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input type="text" placeholder="Devis">
+        </div>
+        <div>
+            <input type="radio"> Male
+            <input type="radio">Female
+            <input type="radio">Other
+        </div>
+        <div>
+            Preferred contact method:
+            <input type="radio">Email
+            <input type="radio">Phone
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" placeholder="your@email.com">
+        </div>
+        <div>
+            <label>Phone</label>
+            <input type="text" placeholder="+359885236225">
+        </div>
+        <div>
+            <label>Town</label>
+            <select name="towns" id="towns">
+                <option value="1">Varna</option>
+                <option value="2">Plovdiv</option>
+                <option value="3">Burgas</option>
+                <option value="4">Sofia</option>
+                <option value="5">Pleven</option>
+            </select>
+        </div>
+        <div>
+            <label>Age</label>
+            <input type="number" min="18" max="70">
+        </div>
+        <div>
+            <label>Programming language</label>
+            <input type="text" id="programming-langs">
+            <datalist id="programming-langs">
+                <option value="1">Java</option>
+                <option value="2">PHP</option>
+                <option value="3">C#</option>
+                <option value="4">JavaScript</option>
+                <option value="5">Python</option>
+                <option value="6">Ruby</option>
+                <option value="7">Other</option>
+            </datalist>
+        </div>
+        <div>
+            <textarea cols="20" rows="5" placeholder="More information...">
+            </textarea>
+        </div>
+        <div>
+            <input type="checkbox">I agree the Terms and Conditions
+        </div>
+        <div>
+            <input type="button" value="Send">
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>
