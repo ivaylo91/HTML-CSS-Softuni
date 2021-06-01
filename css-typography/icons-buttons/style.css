@@ -1,0 +1,17 @@
+.click {
+    background: rgb(0, 128, 0);
+}
+
+.email {
+    background: rgb(255, 140, 0);
+}
+
+.click, .email {
+    padding: 5px 10px;
+    border-radius: 0.2em;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
