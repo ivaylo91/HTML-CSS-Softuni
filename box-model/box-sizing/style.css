@@ -1,0 +1,19 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+html,body{
+    box-sizing: inherit;
+}
+section{
+    width: 250px;
+    height: 250px;
+    border: 2px dotted lightgreen;
+}
+p{
+    width: 100%;
+    padding:20px;
+    border: 2px solid blue;
+}
+h1{
+    text-align: center;
+}
